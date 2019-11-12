@@ -1,0 +1,40 @@
+{
+  "mongo_sample": {
+    "url": "",
+      "options": {
+        "useNewUrlParser": true,
+        "useFindAndModify": false,
+        "auth": {
+          "authSource": "admin"
+        },
+        "user": "",
+        "pass": "",
+        "replicaSet": "replset",
+        "ssl": true,
+        "sslValidate": true,
+        "sslCA": ""
+    }
+  },
+  "mongo": {
+    "url":"localhost",
+    "dbName": "mongodblocal",
+    "options":{
+      "useNewUrlParser": true,
+      "useFindAndModify": false,
+      "useCreateIndex": true
+    }
+  },
+  "authentication": {
+    "jwtSecret": "secret",
+    "expiresIn": "24h"
+  },
+  "redis": {
+    "secret": "aaaaaaaaaaaaa",
+    "key": "secret",
+    "host": "127.0.0.1",
+    "port": "6379",
+    "prefix": "dev",
+    "maxAge": 120000
+  },
+  "rootUrl": "https://localhost:3000/"
+}
