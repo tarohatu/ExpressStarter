@@ -8,7 +8,7 @@
     "srv:test": "NODE_ENV=test npx mocha --exit -t 5000 tests/**/*.spec.js"
   },
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "compression": "^1.7.4",
     "config": "^3.2.4",
     "connect-mongo": "^3.1.2",
